@@ -1,0 +1,130 @@
+/* 
+Fonts Family: font-family: 'Lora', serif;
+
+Colors: Mardi gras: #861388, Meganta Cryola: #e15a97 , Nadeshiko Pink: #eeabc4, Tuscany: #c799a6, Dark Byzantium #4b2840
+*/
+
+/* Global Styles */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+body {
+  font-family: "Lora", serif;
+  margin: 0;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin: 0;
+  padding-bottom: 25px;
+}
+
+p {
+  margin: 0;
+}
+
+.left-col {
+  width: 30%;
+  float: left;
+}
+
+.right-col {
+  width: 70%;
+  float: left;
+  padding: 25px;
+}
+
+.container {
+  width: 950px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+a:hover {
+  color: #000;
+}
+
+/* Navigation */
+nav {
+  background-color: #861388;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 15px;
+  display: inline-block;
+}
+
+/* Intro */
+#intro {
+  background-color: #e15a97;
+  position: relative;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.button {
+  border: 1px solid tomato;
+  text-align: center;
+  padding: 10px;
+  width: 180px;
+  background-color: #861388;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.button a:hover {
+  color: #000;
+}
+
+/* Work */
+#work {
+  background-color: #eeabc4;
+}
+
+/* Education */
+#education {
+  background-color: #c799a6;
+}
+
+/* Contact */
+#contact {
+  background-color: #4b2840;
+  color: #fff;
+  text-align: center;
+}
+
+#contact a {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  padding-right: 20px;
+}
+
+#contact a:hover {
+  color: #000;
+}
